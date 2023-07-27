@@ -22,7 +22,7 @@ while True:
 
     opcao = input(menu)
 
-    # TODO: Depósito: 
+    # Depósito: 
     # de valores positivos (erro ao inserir valor negativo)
     # armazenado em uma variável e exibido na operação de extrato
 
@@ -38,7 +38,7 @@ while True:
         else: 
             print("Operação falhou! O valor informado não pode ser negativo ou nulo.")
 
-    # TODO: Saque:
+    # Saque:
     # o sistema permite 3 saques diários com limite máximo de R$500/saque
     # caso o usuário não tenha saldo em conta, exibir uma mensagem de que
     # não é possível sacar por falta de saldo. Todos os saques devem ser 
@@ -67,7 +67,7 @@ while True:
         else: 
             print("Operação falhou! O valor informado não pode ser negativo ou nulo.")
     
-    # TODO: Extrato:
+    # Extrato:
     # lista todos os depósitos e saques e, no final, mostra o saldo atual
     # da conta. Os valores devem seguir o formato R$ xxx.xx
 
